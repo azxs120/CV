@@ -1,0 +1,265 @@
+/*Yehezkel shahani 203001557 Asya Dyadyuk 314550096*/
+body{
+    margin: 0;
+    padding: 0.7rem;
+}
+h2{
+    text-shadow: 0 0 5px #999;
+}
+h1{
+    text-shadow: 0 0 5px #999;
+    color: #9a728f;
+    size: 500px;
+    margin-right: 25%;
+}
+.container{
+    width:100%;
+    position: relative;
+    text-shadow: 0 0 5px #999;
+    top:0;
+}
+.navbar{
+    position: sticky;
+    top:0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #eccccf;
+    width: 100%;
+    height: 1%;
+    z-index: 1;
+    scroll-margin-top: 100px;
+    size: 500px;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 25%;
+    overflow: hidden;
+}
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+}
+.nav a:hover {
+    background-color: #ece3e3;
+    color: black;
+    vertical-align: -0.2em;
+}
+.nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.logo{
+    flex:1 1 auto;
+    margin-left: 10%;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size:20px;
+}
+a{
+    margin: 15px;
+    color:#000;
+    text-decoration: none;
+    font-size:20px
+
+}
+.info{
+    display: flex;
+    padding: 0.5rem;
+}
+.personal-info-area{
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+    scroll-margin-top: 1em;
+    padding: 7rem;
+}
+.right img{
+    max-width: 60rem;
+    padding: 8rem;
+}
+.skills-area{
+    text-align: left;
+    font-size: 18px;
+    display: block;
+    padding-left: 0.5rem;
+    padding: 7rem;
+}
+.education-area{
+    padding: 5.5rem;
+}
+.workExperience{
+    padding: 5000.5rem;
+}
+.content-table{
+    margin:25px 0;
+    font-size: 0.9em;
+    min-width: 40px;
+}
+.content-table thead tr{
+    background-color: #ece1be;
+    text-align: left;
+    font-weight: bold;
+}
+.content-table th, .content-table td {
+    padding: 12px 15px;
+}
+.recommendations-area{
+    display: flex;
+
+
+}
+.work-experience-area{
+    padding: 40px;
+    text-align: center;
+}
+.inner{
+    max-width: 1200px;
+    margin:auto;
+    overflow: hidden;
+    padding: 0 20px;
+
+}
+.border{
+    width: 160px;
+    height:5px;
+    margin: 26px auto;
+}
+.recommendations-area{
+    padding: 50px;
+    text-align: center;
+}
+.recommendations-area img{
+    width: 150px;
+    padding: 20px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.place{
+    font-weight: bold;
+}
+.child{
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.year{
+    border: 1px solid grey;
+    background: blanchedalmond;
+}
+.social-menu ul{
+    position: absolute;
+    left: 90%;
+    padding: 0;
+    bottom: 0;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+
+.social-menu ul li{
+     list-style: none;
+    margin: 0 15px;
+}
+.social-menu ul li .fa{
+    font-size: 30px;
+    line-height: 60px;
+    transition:  .6s;
+    color: #000;
+}
+.social-menu ul li .fa:hover{
+    color: #fff;
+
+}
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition:  .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+.social-menu ul li a:hover{
+    transform:translate(0,-10px) ;
+}
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover{
+    background-color: #0077B5;
+}
+.footer-bottom{
+    width: 100vw;
+    padding:50px 0;
+    text-align: center;
+    align-items: end;
+}
+
+.social-menu-box ul{
+    position: absolute;
+    left: 50%;
+    padding: 30px;
+    margin: 10px;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+
+.social-menu-box ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.social-menu-box ul li .fa{
+    font-size: 15px;
+    line-height: 30px;
+    transition:  .6s;
+    color: #000;
+}
+.social-menu-box ul li .fa:hover{
+    color: #fff;
+}
+.social-menu-box ul li a{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition:  .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+.social-menu-box ul li a:hover{
+    transform:translate(0,-10px) ;
+}
+.social-menu-box ul li:nth-child(1) a:hover{
+    background-color: #3b5999;
+}
+.social-menu-box ul li:nth-child(2) a:hover{
+    background-color: #55acee;
+}
+.social-menu-box ul li:nth-child(3) a:hover{
+    background-color: #e4405f;
+}
+.social-menu-box ul li:nth-child(4) a:hover{
+    background-color: #0077B5;
+}
