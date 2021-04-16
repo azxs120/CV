@@ -1,0 +1,180 @@
+<!--Yehezkel Shahani 203001557 Asya Dyadyuk 314550096-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Asya Dyadyuk && Yehezkel Shahani</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="best cv !">
+    <meta name="keywords" content="cv, Yehezkel, Asya, Dyadyuk, Shahani">
+    <link  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <style>
+        table, th, td {
+            width: 100%;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+<a id="top"></a>
+
+<div class="container">
+    <div class="navbar">
+        <h1>Asya Dyadyuk && Yehezkel Shahani</h1>
+        <ul class="nav">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#personal info">Personal info</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#workExperience">Work Experience</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+        </ul>
+    </div>
+<section>
+    <div class="info" id="personal info">
+        <div class="personal-info-area">
+            <h2>Personal Info</h2>
+            <a>Asya Dyadyuk</a>
+            <hr/>
+            <a href="tel:052-7977423">052-7977423</a>
+            <hr/>
+            <a href="mailto:drasyady@gmail.com?subject=Regarding your resume&body=Hello I saw your resume and I was impressed I would love to arrange a phone appointment, When will you be available?">drasyady@gmail.com</a>
+            <hr/>
+            <a href="https://www.google.com/maps/place/%D7%A0%D7%97%D7%9C+%D7%A2%D7%95%D7%96%E2%80%AD/@31.4675151,34.5055992,14.5z/data=!4m8!1m2!2m1!1z16A!3m4!1s0x0:0xa1d5254ca3e6859a!8m2!3d31.4723763!4d34.4996238">Nahal-Oz</a>
+        </div>
+        <div class="right">
+            <img src="person.jpg" alt="My picture">
+        </div>
+    </div>
+
+    <div class="skills-area" id="skills">
+
+        <h2>Skills</h2>
+
+        <h5>HTML</h5><span class="bar"></span>
+        <hr>
+
+        <progress max="10" value="10">html</progress>
+
+        <h5>PHP</h5><span class="bar"></span>
+        <hr>
+
+        <progress max="10" value="7">html</progress>
+
+        <h5>JS</h5><span class="bar"></span>
+        <hr>
+
+        <progress max="10" value="1">html</progress>
+    </div>
+
+    <div class="education-area" id="education">
+        <br class="text-part">
+        <h2>Education</h2>
+        <section class="child">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.5462826125076!2d34.59235691515041!3d31.509152881373257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502814a96e693ed%3A0xd2f92addc3834b6c!2z15TXnteb15zXnNeUINeU15DXp9eT157XmdeqINeh16TXmdeo!5e0!3m2!1sen!2sil!4v1618417380192!5m2!1sen!2sil"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p class="place">Sapir College</p>
+            <P>B.sc Computer scienes</P>
+            <p class="year">2019-2022</p>
+        </section>
+        <section class="child">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.3655045408113!2d34.78528191422016!3d31.265983566789394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502666e5a095821%3A0x3cd1856b1b095df0!2z15HXmSLXoSDXnten15nXoyDXk9eq15kg15DXnteZIteq!5e0!3m2!1sen!2sil!4v1618421205249!5m2!1sen!2sil"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p class="place">Amit College</p>
+            <P>High School</P>
+            <p class="year">2001-2008</p>
+        </section>
+    </div>
+
+    <div class="experience" id="workExperience">
+        <div class="work-experience-area">
+        <h2>Work Experience</h2>
+        <table class="content-table">
+            <thead>
+            <tr>
+                <th>company logo</th>
+                <th> name</th>
+                <th> address</th>
+                <th> job title</th>
+                <th> duration</th>
+                <th>description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><img src="tiful.jpg" width="224" alt="Logo"></td>
+                <td>Tiful Gemel</td>
+                <td>Rehovot Meir Vaisgal</td>
+                <td>Finance</td>
+                <td>2017 - 2020</td>
+                <td>magic</td>
+            </tr>
+            <tr>
+                <td><img src="Sapiens.jpg" width="250" alt="Logo"></td>
+                <td>Sapiens</td>
+                <td>Rehovot Meir Vaisgal</td>
+                <td>QA</td>
+                <td>2020 - current</td>
+                <td>magic</td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+
+    <div class="recommendations-area" id="recommendations">
+        <div class="inner">
+            <h2>Recommendations</h2>
+            <h3> what pepole say about me</h3>
+            <div class="border"></div>
+
+
+                    <img src="moti.jpg" alt="pic of moti" class="round">
+            <p><strong>Moti Cohen</strong><br>CEO<br>Owner of Tiful Gemel<br>
+            <section>Now I am become Death, the destroyer of worlds</section></p>
+            <div class="social-menu-box">
+
+                <ul>
+                    <li><a href="https://www.facebook.com/moti.cohen.564"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/moti-cohen-4b4853101/"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <br><br>
+                    <img src="rahela.jpg" alt="pic of rachela" class="round">
+                    <p><strong>Rachela Luzon</strong> <br>
+                        Chief Financial Officer<br>
+                        Also owner at Tiful Gemel
+                    <br> <section>Veni, vidi, vici</section></p>
+            <div class="social-menu-box">
+                <ul>
+                    <li><a href="https://www.facebook.com/rachela.machavyluzon"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/rachela-machavy-luzon-8596318b/"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+    <footer>
+        <div class="social-menu">
+            <ul>
+                <li><a href="https://www.facebook.com/asya.dyaduk"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/?lang=he"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/yehezkel-shahani-02937a192/"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2021 codeOpacity. designed by <a href="https://github.com/Asya-Dyadyuk"> Asya Dyadyuk & Yehezkel Shahani </a></p>
+        </div>
+    </footer>
+</div>
+
+</body>
+
+
+</html>
